@@ -3,7 +3,6 @@ import React from 'react'
 const Content = () => {
 	return (
 		<section className=" bg-coal dark:text-gray-100 py-16">
-			
 			<div className=" flex flex-wrap justify-center dark:text-gray-600 gap-4">
 				<div className="flex justify-start w-1/2 p-6 align-middle md:w-1/3 xl:w-1/5 ">
 					<div>

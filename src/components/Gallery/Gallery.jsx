@@ -3,8 +3,8 @@ import { AiOutlinePlus } from 'react-icons/ai';
 
 const Gallery = () => {
 	return (
-		<section className="py-2 px-16 bg-coal dark:text-gray-50">
-			<h2 className="container grid grid-cols-2 gap-6 py-4 lg:px-16 mx-auto md:grid-cols-3 mx-auto  text-gray-200 font-medium text-left pl-4 text-base uppercase pb-8">
+		<section className="py-2 px-10 bg-coal dark:text-gray-50">
+			<h2 className="container grid grid-cols-2 gap-6 py-4 lg:px-16 tracking-widest md:grid-cols-3 mx-auto  text-gray-200 font-normal text-left pl-4 text-lg uppercase">
 				Our Works
 			</h2>
 			<div className="container grid grid-cols-2 gap-6 py-4 lg:px-16 mx-auto md:grid-cols-3">

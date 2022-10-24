@@ -3,8 +3,11 @@ import image from '../../assets/contact.png';
 
 const Contact = () => {
 	return (
-		<section className="py-16 bg-coal dark:text-gray-50">
-			<div className="grid max-w-7xl grid-cols-1 px-6 mx-auto lg:px-10 md:grid-cols-2 md:space-x-5">
+		<section className=" bg-coal dark:text-gray-50">
+			<div className="font-normal lg:px-24 py-10 text-gray-200 uppercase text-lg tracking-widest">
+				Contact
+			</div>
+			<div className="grid max-w-7xl grid-cols-1 px-6 py-10 mx-auto lg:px-10 md:px-10 md:grid-cols-2 md:space-x-5">
 				<div className="my-6 px-6">
 					<img
 						alt="team"
@@ -12,12 +15,12 @@ const Contact = () => {
 						src={image}
 					/>
 				</div>
-				<div className=''>
-					<div className="pb-5">
-						<h2 classname=" text-base font-bold uppercase text-gray-200 leading-loose mb-2">
+				<div>
+					<div className="space-y-4 pb-5">
+						<h2 classname=" text-xl font-extrabold uppercase text-gray-200">
 							PHOTOSHOOT RECORDING
 						</h2>
-						<p classname=" text-gray-400 text-base leading-relaxed ">
+						<p classname=" text-gray-400 text-base mt-5">
 							Where does one find a real photographer nowadays? We
 							can deliver a top photographer for your party or
 							wedding.

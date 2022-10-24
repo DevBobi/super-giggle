@@ -2,10 +2,10 @@ import React from 'react';
 
 const Team = () => {
 	return (
-		<section className="lg:px-20 bg-coal">
-			<h2 className="text-gray-200 font-medium text-left pl-4 text-base uppercase pb-8">
-				Our Teams
-			</h2>
+		<section className="lg:px-20 py-10 bg-coal">
+			<div className="font-normal px-4 pb-10 text-gray-200 uppercase text-lg tracking-widest">
+				Our team
+			</div>
 			<div className="container lg:px-16 flex flex-col justify-center p-4 mx-auto ">
 				<div className="grid grid-cols-1 lg:grid-cols-4">
 					<img

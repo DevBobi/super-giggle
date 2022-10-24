@@ -6,7 +6,7 @@ import Footer from '../components/Footer/Footer';
 import Gallery from '../components/Gallery/Gallery';
 import Hero from '../components/Hero/Hero';
 import Nav from '../components/Nav/Nav';
-import Newsletter from '../components/Newsletter/Newsletter';
+import Pricing from '../components/Pricing/Pricing';
 import Stats from '../components/Stats/Stats';
 import Team from '../components/Team/Team';
 
@@ -18,10 +18,10 @@ const Home = () => {
 			<Gallery />
 			<About />
 			<Content />
-			<Stats />
 			<Contact />
+			<Pricing/>
 			<Team />
-			<Newsletter />
+			<Stats />
 			<Footer />
 		</>
 	);
