@@ -22,6 +22,7 @@ const Home = () => {
 			<Contact />
 			<Pricing/>
 			<Team />
+			<Stats />
 			<Info />
 			<Footer />
 		</>
