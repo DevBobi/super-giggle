@@ -18,7 +18,7 @@ const Hero = () => {
 					</p>
 					<div className=" space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
 						<button className="px-8 py-3 text-sm font-semibold text-gray-300 border border-gray-500">
-							Contact Us {'>'}{' '}
+							Contact Us <span>  </span>
 						</button>
 					</div>
 				</div>
