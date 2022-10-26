@@ -16,8 +16,8 @@ const Content = () => {
 							<path d="M21.207 14.9504C20.213 14.0854 19.348 13.0444 18.208 12.3574C17.066 11.6704 15.839 12.0944 15.047 13.1194C14.282 14.1104 13.804 15.4434 12.649 16.0684C11.226 16.8394 10.39 15.5964 9.203 15.0984C7.878 14.5434 6.872 15.5414 6.098 16.5004C5.323 17.4604 4.538 18.4104 3.75 19.3604" stroke="#200E32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 
 						</svg>
-						<p className="text-2xl font-semibold text-white uppercase">Photography</p>
-						<p className="text-lg font-semibold text-slate-300 my-5">Ballet and Pilates inspired workouts are great if you want to build long, lean “beauty” muscles.</p>
+						<p className="text-base font-semibold text-white uppercase">Photography</p>
+						<p className="text-sm font-semibold text-slate-300 my-5">Ballet and Pilates inspired workouts are great if you want to build long, lean “beauty” muscles.</p>
 					</div>
 				</div>
 				<div className="flex justify-start w-1/2 p-6 align-middle md:w-1/3 xl:w-1/5 ">
@@ -32,8 +32,8 @@ const Content = () => {
 							<path d="M21.207 14.9504C20.213 14.0854 19.348 13.0444 18.208 12.3574C17.066 11.6704 15.839 12.0944 15.047 13.1194C14.282 14.1104 13.804 15.4434 12.649 16.0684C11.226 16.8394 10.39 15.5964 9.203 15.0984C7.878 14.5434 6.872 15.5414 6.098 16.5004C5.323 17.4604 4.538 18.4104 3.75 19.3604" stroke="#200E32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 
 						</svg>
-						<p className="text-2xl font-semibold text-white uppercase">Photography</p>
-						<p className="text-lg font-semibold text-slate-300 my-5">Ballet and Pilates inspired workouts are great if you want to build long, lean “beauty” muscles.</p>
+						<p className="text-base font-semibold text-white uppercase">Photography</p>
+						<p className="text-sm font-semibold text-slate-300 my-5">Ballet and Pilates inspired workouts are great if you want to build long, lean “beauty” muscles.</p>
 					</div>
 				</div>
 				<div className="flex justify-start w-1/2 p-6 align-middle md:w-1/3 xl:w-1/5 ">
@@ -48,8 +48,8 @@ const Content = () => {
 							<path d="M21.207 14.9504C20.213 14.0854 19.348 13.0444 18.208 12.3574C17.066 11.6704 15.839 12.0944 15.047 13.1194C14.282 14.1104 13.804 15.4434 12.649 16.0684C11.226 16.8394 10.39 15.5964 9.203 15.0984C7.878 14.5434 6.872 15.5414 6.098 16.5004C5.323 17.4604 4.538 18.4104 3.75 19.3604" stroke="#200E32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 
 						</svg>
-						<p className="text-2xl font-semibold text-white uppercase">Photography</p>
-						<p className="text-lg font-semibold text-slate-300 my-5">Ballet and Pilates inspired workouts are great if you want to build long, lean “beauty” muscles.</p>
+						<p className="text-base font-semibold text-white uppercase">Photography</p>
+						<p className="text-sm font-semibold text-slate-300 my-5">Ballet and Pilates inspired workouts are great if you want to build long, lean “beauty” muscles.</p>
 					</div>
 				</div>
 				<div className="flex justify-start w-1/2 p-6 align-middle md:w-1/3 xl:w-1/5 ">
@@ -64,8 +64,8 @@ const Content = () => {
 							<path d="M21.207 14.9504C20.213 14.0854 19.348 13.0444 18.208 12.3574C17.066 11.6704 15.839 12.0944 15.047 13.1194C14.282 14.1104 13.804 15.4434 12.649 16.0684C11.226 16.8394 10.39 15.5964 9.203 15.0984C7.878 14.5434 6.872 15.5414 6.098 16.5004C5.323 17.4604 4.538 18.4104 3.75 19.3604" stroke="#200E32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 
 						</svg>
-						<p className="text-2xl font-semibold text-white uppercase">Photography</p>
-						<p className="text-lg font-semibold text-slate-300 my-5">Ballet and Pilates inspired workouts are great if you want to build long, lean “beauty” muscles.</p>
+						<p className="text-base font-semibold text-white uppercase">Photography</p>
+						<p className="text-sm font-semibold text-slate-300 my-5">Ballet and Pilates inspired workouts are great if you want to build long, lean “beauty” muscles.</p>
 					</div>
 				</div>
 

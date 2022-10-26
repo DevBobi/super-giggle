@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = () => {
 	return (
-		<section class="bg-white dark:bg-coal py-20 ">
+		<section class="bg-coal dark:bg-coal py-20 ">
 			<div className="font-normal px-24 text-gray-200 uppercase text-lg tracking-widest">
 				About
 			</div>
@@ -15,7 +15,7 @@ const About = () => {
 
 					<div class="mt-8 lg:w-96 lg:px-6 lg:mt-0 lg:relative">
 						<div className="lg:absolute items-center right-36 bottom-[340px]">
-							<h1 class="text-lg font-semibold text-gray-800 dark:text-white xl:text-3xl lg:w-[500px] leading-relaxed italic tracking-normal">
+							<h1 class="text-lg font-semibold text-white dark:text-white xl:text-3xl lg:w-[500px] leading-relaxed italic tracking-normal">
 								“Photography is an art. And when you are part of
 								art, this is bliss.”
 							</h1>
