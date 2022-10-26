@@ -16,15 +16,13 @@ const Contact = () => {
 					/>
 				</div>
 				<div>
-					<div className="space-y-4 pb-5">
-						<h2 classname="text-xl font-extrabold uppercase text-white">
-							PHOTOSHOOT RECORDING
-						</h2>
-						<p classname=" text-white text-base mt-5">
-							Where does one find a real photographer nowadays? We
-							can deliver a top photographer for your party or
-							wedding.
-						</p>
+					<div className="font-normal py-5 text-gray-200 uppercase text-lg tracking-widest">
+						PHOTOSHOOT RECORDING
+					</div>
+					<div className="font-normal pb-10 text-gray-400 uppercase text-sm">
+						Where does one find a real photographer nowadays? We
+						can deliver a top photographer for your party or
+						wedding.
 					</div>
 					<form
 						novalidate=""
