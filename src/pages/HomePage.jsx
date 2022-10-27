@@ -14,7 +14,6 @@ import Team from '../components/Team/Team';
 const Home = () => {
 	return (
 		<>
-			<Nav />
 			<Hero />
 			<Gallery />
 			<About />
@@ -24,7 +23,6 @@ const Home = () => {
 			<Team />
 			<Stats />
 			<Info />
-			<Footer />
 		</>
 	);
 };

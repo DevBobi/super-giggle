@@ -1,4 +1,6 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { Route, Routes, useLocation } from 'react-router-dom'
+import Footer from './components/Footer/Footer'
+import Nav from './components/Nav/Nav'
 import ContactPage from './pages/ContactPage'
 import ContentPage from './pages/ContentPage'
 import GalleryPage from './pages/GalleryPage'
@@ -8,9 +10,11 @@ import Register from './pages/Register'
 import TeamPage from './pages/TeamPage'
 
 function App() {
+	const { pathname } = useLocation()
 	return (
-		<BrowserRouter>
-			<div className=" justify-center flex-col min-h-screen ">
+
+		<div className=" justify-center flex-col min-h-screen ">
+			{pathname !== '/login' && pathname !== '/register' && <Nav />}
 			<Routes>
 				<Route path='*' element={<div>Not Found</div>} />
 				<Route path='/' element={<Home />} />
@@ -21,8 +25,8 @@ function App() {
 				<Route path='/login' element={<Login />} />
 				<Route path='/register' element={<Register />} />
 			</Routes>
-			</div>
-		</BrowserRouter>
+			{pathname !== '/login' && pathname !== '/register' && <Footer />}
+		</div>
 	)
 }
 export default App
