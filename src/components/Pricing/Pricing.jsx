@@ -3,7 +3,7 @@ import React from 'react';
 const Pricing = () => {
 	return (
 		<section className="bg-coal px-20">
-			<div className="container mx-auto py-20 dark:bg-coal dark:text-gray-100">
+			<div className="container mx-auto py-20 text-gray-100">
 				<div className="font-normal px-4 pb-10 text-gray-200 uppercase text-lg tracking-widest">
 					Pricing
 				</div>

@@ -5,11 +5,10 @@ const Team = () => {
 	return (
 		<section className="lg:px-20 py-10 bg-coal">
 			<div className="font-normal px-4 pb-10 text-gray-200 uppercase text-lg tracking-widest">
-				Our team
+				Our Perfect team
 			</div>
 			<div className="container lg:px-16 flex flex-col justify-center p-4 mx-auto ">
 				<div className="grid grid-cols-1 lg:grid-cols-4">
-
 					<div class="relative">
 						<a href="#" class="group relative">
   						      <div class="h-100 flex flex-wrap content-center">

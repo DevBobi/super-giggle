@@ -17,12 +17,13 @@ const Home = () => {
 			<Nav />
 			<Hero />
 			<Gallery />
-			<About />
 			<Content />
-			<Contact />
-			<Pricing/>
-			<Team />
+			<About />
+			
+			<Pricing />
 			<Stats />
+			<Team />
+			<Contact />
 			<Info />
 			<Footer />
 		</>

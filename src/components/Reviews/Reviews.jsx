@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 
-const Hero = () => {
+const Reviews = () => {
 	return (
 		<section className="bg-coal px-16">
 			<div className="container flex flex-col justify-center p-6 mx-auto sm:py-16 lg:py-20 lg:flex-row lg:justify-between">
@@ -48,4 +48,4 @@ const Hero = () => {
 	);
 };
 
-export default Hero;
+export default Reviews;

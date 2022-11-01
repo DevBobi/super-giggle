@@ -3,9 +3,6 @@ import React from 'react';
 const About = () => {
 	return (
 		<section class="bg-coal dark:bg-coal py-20 ">
-			<div className="font-normal px-24 text-gray-200 uppercase text-lg tracking-widest">
-				About
-			</div>
 				<div class="lg:flex lg:items-center justify-center">
 					<img
 						class="object-cover object-center lg:w-1/2 lg:p-12 w-full h-96 rounded-lg lg:h-[36rem]"
