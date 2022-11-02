@@ -2,8 +2,8 @@ import React from 'react'
 
 const Info = () => {
     return (
-        <div className='bg-coal px-10'>
-            <div className="container m-auto px-16 pt-16 pb-10 text-gray-300">
+        <div className='bg-coal px-10 border-b border-gray-700 '>
+            <div className="container m-auto pt-16 pb-10 text-gray-300 border-b-1">
                 <div className="flex justify-between items-center">
                     <div className='text-center w-1/3'>
                         <h3 className='font-bold after-border pb-4 mb-2'>SEND EMAIL</h3>

@@ -59,10 +59,10 @@ const Nav = () => {
 							Galleries
 						</Link>
 						<Link
-							to="/content"
+							to="/packages"
 							className="mr-8 hover:text-gray-300"
 						>
-							Content
+							Packages
 						</Link>
 						<Link to="/team" className="mr-8 hover:text-gray-300">
 							Team

@@ -1,6 +1,7 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Footer from './components/Footer/Footer'
 import Nav from './components/Nav/Nav'
+import Pricing from './components/Pricing/Pricing'
 import ContactPage from './pages/ContactPage'
 import ContentPage from './pages/ContentPage'
 import GalleryPage from './pages/GalleryPage'
@@ -18,7 +19,7 @@ function App() {
 					<Route path='*' element={<div>Not Found</div>} />
 					<Route path='/' element={<Home />} />
 					<Route path='/gallery' element={<GalleryPage />} />
-					<Route path='/content' element={<ContentPage />} />
+					<Route path='/packages' element={<Pricing />} />
 					<Route path='/team' element={<TeamPage />} />
 					<Route path='/contact' element={<ContactPage />} />
 					<Route path='/login' element={<Login />} />
