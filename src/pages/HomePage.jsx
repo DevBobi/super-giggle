@@ -8,6 +8,7 @@ import Hero from '../components/Hero/Hero';
 import Info from '../components/Info/Info';
 import Nav from '../components/Nav/Nav';
 import Pricing from '../components/Pricing/Pricing';
+import Reviews from '../components/Reviews/Reviews';
 import Stats from '../components/Stats/Stats';
 import Team from '../components/Team/Team';
 
@@ -19,8 +20,8 @@ const Home = () => {
 			<Gallery />
 			<Content />
 			<About />
-			
 			<Pricing />
+			<Reviews/>
 			<Stats />
 			<Team />
 			<Contact />
