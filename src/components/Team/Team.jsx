@@ -3,11 +3,11 @@ import { FaFacebook } from "react-icons/fa";
 
 const Team = () => {
 	return (
-		<section className="lg:px-20 py-10 bg-coal">
+		<section className="lg:px-24 py-10 bg-coal">
 			<div className="font-normal px-4 pb-10 text-gray-200 uppercase text-lg tracking-widest">
 				Our Perfect team
 			</div>
-			<div className="container lg:px-16 flex flex-col justify-center p-4 mx-auto ">
+			<div className="container flex flex-col justify-center p-4 mx-auto ">
 				<div className="grid grid-cols-1 lg:grid-cols-4">
 					<div class="relative">
 						<a href="#" class="group relative">

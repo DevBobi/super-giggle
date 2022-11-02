@@ -3,11 +3,11 @@ import image from '../../assets/contact.png';
 
 const Contact = () => {
 	return (
-		<section className=" bg-coal dark:text-gray-50 p-20">
-			{/* <div className="font-normal lg:px-24 py-10 text-gray-200 uppercase text-lg tracking-widest">
-				Contact
-			</div> */}
-			<div className="grid max-w-7xl grid-cols-1 px-6 py-10 mx-auto lg:px-10 md:px-10 md:grid-cols-2 md:space-x-5">
+		<section className=" bg-coal dark:text-gray-50 px-24 py-20">
+			<div className="font-normal px-4 pb-24 text-gray-200 uppercase text-lg tracking-widest">
+				Contact Us
+			</div>
+			<div className="grid max-w-7xl grid-cols-1 mx-auto md:px-10 md:grid-cols-2 md:space-x-5">
 				<div className="my-6 px-6">
 					<img
 						alt="team"

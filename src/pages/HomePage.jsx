@@ -4,6 +4,7 @@ import Contact from '../components/Contact/Contact';
 import Content from '../components/Content/Content';
 import Footer from '../components/Footer/Footer';
 import Gallery from '../components/Gallery/Gallery';
+import HomeGallery from '../components/Gallery/HomeGallery/HomeGallery';
 import Hero from '../components/Hero/Hero';
 import Info from '../components/Info/Info';
 import Nav from '../components/Nav/Nav';
@@ -15,7 +16,8 @@ const Home = () => {
 	return (
 		<>
 			<Hero />
-			<Gallery />
+			{/* <Gallery /> */}
+			<HomeGallery/>
 			<Content />
 			<About />
 			<Pricing />

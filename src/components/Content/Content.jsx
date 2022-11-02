@@ -3,6 +3,9 @@ import React from 'react'
 const Content = () => {
 	return (
 		<section className=" bg-coal dark:text-gray-100 py-16">
+			<h2 className="container grid grid-cols-2 gap-6 py-4 lg:px-20 mx-auto md:grid-cols-3 text-gray-300 font-bold text-left pl-4 text-lg uppercase pb-8">
+				Our Services
+			</h2>
 			<div className=" flex flex-wrap justify-center dark:text-gray-600 gap-4">
 				<div className="flex justify-start w-1/2 p-6 align-middle md:w-1/3 xl:w-1/5 ">
 					<div>

@@ -2,10 +2,17 @@ import React from 'react';
 
 const Pricing = () => {
 	return (
-		<section className="bg-coal px-20">
+		<section className="bg-coal px-24">
 			<div className="container mx-auto py-20 text-gray-100">
-				<div className="font-normal px-4 pb-10 text-gray-200 uppercase text-lg tracking-widest">
-					Pricing
+				{/* <h2 className="container grid grid-cols-2 gap-6 py-4  pb-10 mx-auto md:grid-cols-3 text-gray-300 font-bold text-left pl-4 text-lg uppercase">
+					Packages
+				</h2> */}
+				<div className="container grid grid-cols-2 gap-6 py-4  md:grid-cols-2 mx-auto  text-gray-300 font-medium text-left pl-4 text-lg uppercase pb-14">
+					<div>Our Packages</div>
+					<div className="flex flex-auto justify-end felx-col text-uppercase">
+						<h2 className='mx-5 hover:underline decoration-2'>Dhaka</h2>
+						<h2 className='mx-5 hover:underline decoration-2'>Outside Dhaka</h2>
+					</div>
 				</div>
 				<div className="container px-4 mx-auto">
 					<div className="flex flex-wrap items-stretch -mx-4">

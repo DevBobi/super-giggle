@@ -19,7 +19,7 @@ const Reviews = () => {
 //   let navigation = useNavigate();
 
 	return (
-	  <section className="bg-coal text-gray-200 body-font">
+	  <section className="bg-coal text-gray-200 body-font px-24">
 	  	{/* <div className="relative max-h-full md:pb-0 min-h-screen bg-cover" style={{ backgroundImage: `url(${bannerBG})` }}> */}
       		<div className="container mx-auto grid md:grid-cols-1 xs:grid-cols-1 py-0 absuolute top-1/2 left-1/2  translate-1/2">
 				<div className="grid items-center text-center my-20"> 

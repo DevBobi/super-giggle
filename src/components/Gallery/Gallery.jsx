@@ -15,7 +15,7 @@ const Gallery = () => {
 				</div>
 			</div>
 			<div className="container py-4 lg:px-24 mx-auto md:grid-cols-3">
-				<ResponsiveMasonry columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }} >
+				<ResponsiveMasonry columnsCountBreakPoints={{ 345: 1, 750: 2, 900: 3 }} >
 					<Masonry gutter='30px' columnsCount={3} >
 						<Image imageLink={"https://source.unsplash.com/random/?0"} />
 						<Image imageLink={"https://source.unsplash.com/random/?1"}/>
