@@ -9,24 +9,19 @@ import Info from '../components/Info/Info';
 import Nav from '../components/Nav/Nav';
 import Pricing from '../components/Pricing/Pricing';
 import Reviews from '../components/Reviews/Reviews';
-import Stats from '../components/Stats/Stats';
 import Team from '../components/Team/Team';
 
 const Home = () => {
 	return (
 		<>
-			<Nav />
 			<Hero />
 			<Gallery />
 			<Content />
 			<About />
 			<Pricing />
 			<Reviews/>
-			<Stats />
 			<Team />
 			<Contact />
-			<Info />
-			<Footer />
 		</>
 	);
 };

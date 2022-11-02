@@ -18,11 +18,12 @@ import { Navigation, Pagination,Autoplay } from "swiper";
 const Reviews = () => {
 //   let navigation = useNavigate();
 
-  return (
-	  	<div className="relative max-h-full md:pb-0 min-h-screen bg-cover" style={{ backgroundImage: `url(${bannerBG})` }}>
+	return (
+	  <section className="bg-coal text-gray-200 body-font">
+	  	{/* <div className="relative max-h-full md:pb-0 min-h-screen bg-cover" style={{ backgroundImage: `url(${bannerBG})` }}> */}
       		<div className="container mx-auto grid md:grid-cols-1 xs:grid-cols-1 py-0 absuolute top-1/2 left-1/2  translate-1/2">
 				<div className="grid items-center text-center my-20"> 
-          			<div className="text-1xl lg:text-2xl xl:text-3xl font-bold mt-2 text-gray-800">
+          			<div className="text-1xl lg:text-2xl xl:text-3xl font-bold mt-2 text-white">
 						WHAT PEOPLE SAY					  
 				  	</div>
 			  	</div>
@@ -53,31 +54,32 @@ const Reviews = () => {
           				    },
           				  }}
           				>
-          				  <SwiperSlide className="py-2">
+          				  <SwiperSlide className="pb-20">
           				    <Review/>
           				  </SwiperSlide>
-          				  <SwiperSlide className="py-2">
+          				  <SwiperSlide className="pb-20">
           				    <Review/>
           				  </SwiperSlide>
-          				  <SwiperSlide className="py-2">
+          				  <SwiperSlide className="pb-20">
           				    <Review/>
           				  </SwiperSlide>
-          				  <SwiperSlide className="py-2">
+          				  <SwiperSlide className="pb-20">
           				    <Review/>
           				  </SwiperSlide>
-          				  <SwiperSlide className="py-2">
+          				  <SwiperSlide className="pb-20">
           				    <Review/>
           				  </SwiperSlide>
-          				  <SwiperSlide className="py-2">
+          				  <SwiperSlide className="pb-20">
           				    <Review/>
           				  </SwiperSlide>          
-          				  <SwiperSlide className="py-2">
+          				  <SwiperSlide className="pb-20">
           				    <Review/>
           				  </SwiperSlide>          
           				</Swiper>
 				</div>
       		</div>
-    	</div>
+    	{/* </div> */}
+	</section>
 )};
 
 export default Reviews;

@@ -1,4 +1,6 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import Footer from './components/Footer/Footer'
+import Nav from './components/Nav/Nav'
 import ContactPage from './pages/ContactPage'
 import ContentPage from './pages/ContentPage'
 import GalleryPage from './pages/GalleryPage'
@@ -11,16 +13,18 @@ function App() {
 	return (
 		<BrowserRouter>
 			<div className=" justify-center flex-col min-h-screen ">
-			<Routes>
-				<Route path='*' element={<div>Not Found</div>} />
-				<Route path='/' element={<Home />} />
-				<Route path='/gallery' element={<GalleryPage />} />
-				<Route path='/content' element={<ContentPage />} />
-				<Route path='/team' element={<TeamPage />} />
-				<Route path='/contact' element={<ContactPage />} />
-				<Route path='/login' element={<Login />} />
-				<Route path='/register' element={<Register />} />
-			</Routes>
+				<Nav />
+				<Routes>
+					<Route path='*' element={<div>Not Found</div>} />
+					<Route path='/' element={<Home />} />
+					<Route path='/gallery' element={<GalleryPage />} />
+					<Route path='/content' element={<ContentPage />} />
+					<Route path='/team' element={<TeamPage />} />
+					<Route path='/contact' element={<ContactPage />} />
+					<Route path='/login' element={<Login />} />
+					<Route path='/register' element={<Register />} />
+				</Routes>
+				<Footer />
 			</div>
 		</BrowserRouter>
 	)
