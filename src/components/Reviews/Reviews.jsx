@@ -1,6 +1,6 @@
 import React from "react";
 import bannerBG from "../../assets/311634251_2178888665651407_1413025571303879858_n.jpg";
-import './Reviews'
+
 import { HiOutlineSearch } from "react-icons/hi";
 import Review from "./Review/Review";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -9,6 +9,7 @@ import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+import './Reviews.css'
 
 import { Navigation, Pagination,Autoplay } from "swiper";
 
