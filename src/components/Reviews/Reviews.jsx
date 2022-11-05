@@ -1,5 +1,4 @@
 import React from "react";
-import bannerBG from "../../assets/311634251_2178888665651407_1413025571303879858_n.jpg";
 
 import { HiOutlineSearch } from "react-icons/hi";
 import Review from "./Review/Review";
