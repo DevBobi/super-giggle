@@ -47,7 +47,7 @@ const Nav = () => {
 					</Link>
 
 					{/* ::Navbar */}
-					<nav className="hidden md:mr-auto uppercase md:ml-4 md:pl-4 md:border-l md:border-gray-500 md:flex flex-wrap items-center justify-center text-sm font-normal tracking-wide">
+					<nav className="hidden md:mr-auto uppercase md:ml-4 md:pl-4 md:border-l md:border-gray-500 md:flex flex-wrap items-center justify-center w-full text-sm font-normal tracking-wide">
 						<Link to="/" className="mr-8 hover:text-gray-300">
 							Home
 						</Link>
