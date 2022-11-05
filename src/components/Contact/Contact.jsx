@@ -1,5 +1,6 @@
 import React from 'react';
 import image from '../../assets/contact.png';
+import sajjad from '../../assets/sajjad_saju.jpg'
 
 const Contact = () => {
 	return (
@@ -7,12 +8,12 @@ const Contact = () => {
 			<div className="font-normal px-4 pb-24 text-gray-200 uppercase text-lg tracking-widest">
 				Contact Us
 			</div>
-			<div className="grid max-w-7xl grid-cols-1 mx-auto md:px-10 md:grid-cols-2 md:space-x-5">
+			<div className="grid max-w-7xl grid-cols-1 mx-auto md:px-10 md:grid-cols-2 md:space-x-5 justify-center items-center">
 				<div className="my-6 px-6">
 					<img
 						alt="team"
 						className="object-fill w-full h-auto -mt-16"
-						src={image}
+						src={sajjad}
 					/>
 				</div>
 				<div>

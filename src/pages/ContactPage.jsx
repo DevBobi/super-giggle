@@ -1,8 +1,14 @@
-import React from 'react'
+import React from 'react';
+import CommonPageBanner from '../components/CommonPageBanner/CommonPageBanner';
 import Contact from '../components/Contact/Contact'
 
 const ContactPage = () => {
-	return <Contact />
-}
+	return (
+		<div>
+			<CommonPageBanner/>
+			<Contact />
+		</div>
+	);
+};
 
-export default ContactPage
+export default ContactPage;

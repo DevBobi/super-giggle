@@ -19,13 +19,12 @@ const Nav = () => {
 		<div className={
 			changeHeader
 			? 
-			" bg-opacity-75 w-full bg-coal text-white z-50 body-font shadow-md transition duration-500 fixed top-0"
+			"w-full bg-slate-900 text-white body-font z-50 top-0 left-0  shadow-md transition duration-500 sticky"
 			: 
-			"w-full bg-coal text-white body-font z-50 top-0 left-0  shadow-md transition duration-500 sticky"
+			"bg-opacity-50 w-full py-2 bg-coal text-white z-50 body-font shadow-md transition duration-500 fixed top-0"
 		}>
-			{/* :DESKTOP MENU */}
 			<header className='container px-12  mx-auto'>
-				<div className="container mx-auto flex justify-between items-center py-5">
+				<div className="container mx-auto flex justify-between items-center py-3">
 					{/* ::Site logo and Name */}
 					<Link
 						to="/"
@@ -48,7 +47,7 @@ const Nav = () => {
 					</Link>
 
 					{/* ::Navbar */}
-					<nav className="hidden md:mr-auto uppercase md:ml-4 md:pl-4 md:border-l md:border-gray-500 md:flex flex-wrap items-center justify-center text-sm font-normal tracking-wide">
+					<nav className="hidden md:mr-auto uppercase md:ml-4 md:pl-4 md:border-l md:border-gray-500 md:flex flex-wrap items-center justify-center w-full text-sm font-normal tracking-wide">
 						<Link to="/" className="mr-8 hover:text-gray-300">
 							Home
 						</Link>
