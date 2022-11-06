@@ -7,6 +7,7 @@ import ContentPage from './pages/ContentPage'
 import GalleryPage from './pages/GalleryPage'
 import Home from './pages/HomePage'
 import Login from './pages/Login'
+import PackagesPage from './pages/PackagesPage'
 import Register from './pages/Register'
 import TeamPage from './pages/TeamPage'
 
@@ -19,7 +20,7 @@ function App() {
 					<Route path='*' element={<div>Not Found</div>} />
 					<Route path='/' element={<Home />} />
 					<Route path='/gallery' element={<GalleryPage />} />
-					<Route path='/packages' element={<Pricing />} />
+					<Route path='/packages' element={<PackagesPage />} />
 					<Route path='/team' element={<TeamPage />} />
 					<Route path='/contact' element={<ContactPage />} />
 					<Route path='/login' element={<Login />} />

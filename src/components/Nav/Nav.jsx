@@ -21,7 +21,7 @@ const Nav = () => {
 			? 
 			"w-full bg-slate-900 text-white body-font z-50 top-0 left-0  shadow-md transition duration-500 sticky"
 			: 
-			"bg-opacity-50 w-full py-2 bg-coal text-white z-50 body-font shadow-md transition duration-500 fixed top-0"
+			"bg-opacity-50 w-full bg-coal text-white z-50 body-font shadow-md transition duration-500 fixed top-0"
 		}>
 			<header className='container px-12  mx-auto'>
 				<div className="container mx-auto flex justify-between items-center py-3">

@@ -1,6 +1,14 @@
-import React from 'react'
-import Gallery from '../components/Gallery/Gallery'
+import React from 'react';
+import CommonPageBanner from '../components/CommonPageBanner/CommonPageBanner';
+import Gallery from '../components/Gallery/Gallery';
 
-const GalleryPage = () => <Gallery />
+const GalleryPage = () => {
+    return (
+        <div>
+            <CommonPageBanner headTitle="Gallery Page" />
+            <Gallery />
+        </div>
+    );
+};
 
-export default GalleryPage
+export default GalleryPage;
