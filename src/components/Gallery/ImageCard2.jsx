@@ -5,7 +5,7 @@ const Image = ({imageLink}) => {
     return (
         <div>
             <div className="group relative w-100 border rounded-lg">
-                <img className="object-cover w-[347px] h-[256px] rounded-lg"
+                <img className="object-cover w-[355px] h-[256px] rounded-lg mx-auto"
                     alt='p'
                     src={imageLink}
                 />
