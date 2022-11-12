@@ -4,8 +4,9 @@ import { AiOutlinePlus } from 'react-icons/ai';
 const Image = ({imageLink}) => {
     return (
         <div>
-            <div className="group relative w-100 border rounded-lg">
+            <div className="group relative w-[355px] h-[256px] border rounded-lg">
                 <img className="object-cover w-[355px] h-[256px] rounded-lg mx-auto"
+                // <img className="object-cover w-[355px] h-[256px] rounded-lg mx-auto"
                     alt='p'
                     src={imageLink}
                 />
