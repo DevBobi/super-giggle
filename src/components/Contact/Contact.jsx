@@ -1,8 +1,9 @@
 import React from 'react';
-import image from '../../assets/contact.png';
 import sajjad from '../../assets/sajjad_saju.jpg'
 
 const Contact = () => {
+
+
 	return (
 		<section className=" bg-coal dark:text-gray-50 px-24 py-20">
 			<div className="font-normal px-4 pb-24 text-gray-200 uppercase text-lg tracking-widest">
@@ -12,7 +13,7 @@ const Contact = () => {
 				<div className="my-6 px-6">
 					<img
 						alt="team"
-						className="object-fill w-full h-auto -mt-16"
+						className="object-cover w-full h-[620px] rounded-lg -mt-16"
 						src={sajjad}
 					/>
 				</div>
@@ -33,31 +34,32 @@ const Contact = () => {
 							<input
 								type="text"
 								placeholder="Your Name"
-								className="block w-full text-sm border border-gray-500 p-1 bg-coal"
+								className="block w-full text-sm border border-gray-500 p-1 px-2 bg-transparent h-12 rounded-md"
 							/>
 							<input
 								type="email"
-								placeholder="leroy@jenkins.com"
-								className="block w-full text-sm border border-gray-500 p-1 bg-coal"
+								placeholder="example@mail.com"
+								className="block w-full text-sm border border-gray-500 p-1 px-2 bg-transparent h-12 rounded-md"
 							/>
 						</div>
 						<div className="flex space-x-3">
 							<input
 								type="date"
-								placeholder="Date"
-								className="block w-full text-sm border border-gray-500 p-1 bg-coal"
+								style={{ filter: 'invert(.7)', color: 'black' }}
+								className="block w-full text-sm border border-gray-500 p-1 px-2 bg-transparent h-12 rounded-md"
 							/>
 							<input
-								type="Time"
-								placeholder="leroy@jenkins.com"
-								className="block w-full text-sm border border-gray-500 p-1 bg-coal"
+								type="time"
+								style={{ filter: 'invert(.7)', color: 'black' }}
+								value="16:00:00"
+								className="block w-full text-sm border border-gray-500 p-1 px-2 bg-transparent h-12 rounded-md"
 							/>
 						</div>
 						<div className="flex space-x-3">
 							<select
 								type="select"
 								placeholder="Person"
-								className="block w-full text-sm border border-gray-500 p-1 bg-coal"
+								className="block w-full text-sm border border-gray-500 p-1 px-2 bg-transparent h-12 rounded-md"
 							>
 								<option selected>Persons</option>
 								<option value="US">1</option>
@@ -68,7 +70,7 @@ const Contact = () => {
 							<select
 								type="select"
 								placeholder="Person"
-								className="block w-full text-sm border border-gray-500 p-1 bg-coal"
+								className="block w-full text-sm border border-gray-500 p-1 px-2 bg-transparent h-12 rounded-md"
 							>
 								<option selected>Category</option>
 								<option value="US">Fashion</option>
@@ -78,11 +80,12 @@ const Contact = () => {
 						</div>
 						<label className="block">
 							<textarea
-								rows="3"
-								className="block w-full  border border-gray-500 p-2 bg-coal"
+								rows="4"
+								placeholder='Hi...'
+								className="block w-full  border border-gray-500 p-2 bg-transparent rounded-md"
 							></textarea>
 						</label>
-						<button className="px-8 py-3 w-48 text-sm font-semibold text-gray-300 border border-gray-500 uppercase">
+						<button className="px-8 py-3 rounded-md hover:border-x-2 w-48 text-sm font-semibold text-gray-300 border border-gray-500 uppercase">
 							send message
 						</button>
 					</form>
