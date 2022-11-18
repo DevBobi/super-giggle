@@ -5,7 +5,7 @@ const Image = ({imageLink}) => {
     return (
         <div>
             <div className="group relative w-100 border rounded-lg">
-                <img className="object-cover w-[347px] h-[256px] rounded-lg"
+                <img className="object-cover w-full h-[256px] rounded-lg"
                     alt='p'
                     src={imageLink}
                 />
@@ -13,7 +13,7 @@ const Image = ({imageLink}) => {
                     <a className="p-5 rounded-full bg-slate-200 hover:bg-slate-100 bg-opacity-60 duration-300" href="#"><AiOutlinePlus /></a>
                 </div>
                 <div className="absolute w-full bottom-2 left-16 text-white group-hover:bottom-6 duration-500 ">
-                    <p className='text-base font-bold uppercase text-slate-200'>experiemntal</p>
+                    <p className='text-base w-full font-bold uppercase text-slate-200'>experimental</p>
                 </div>
             </div>
         </div>
